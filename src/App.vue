@@ -1,5 +1,6 @@
 <script>
 import AppHeader from "@/components/AppHeader.vue";
+
 export default {
   components: {
     AppHeader,
@@ -9,7 +10,10 @@ export default {
 
 <template>
   <div id="app">
+    <!-- Header toàn cục -->
     <AppHeader />
+
+    <!-- Nội dung sẽ thay đổi theo router -->
     <div class="container mt-3">
       <router-view />
     </div>

@@ -14,6 +14,7 @@ export default {
   },
 };
 </script>
+
 <template>
   <div class="input-group">
     <input
@@ -25,9 +26,9 @@ export default {
       @keyup.enter="submit"
     />
     <div class="input-group-append">
-      <button type="button" @click="submit"></button>
+      <button class="btn btn-outline-secondary" type="button" @click="submit">
+        <i class="fas fa-search"></i> Tìm kiếm
+      </button>
     </div>
-    class="btn btn-outline-secondary"
-    <i class="fas fa-search"></i> Tìm kiếm
   </div>
 </template>
